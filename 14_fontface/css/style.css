@@ -1,0 +1,14 @@
+/*Для импорта локальных шрифтов*/
+@font-face {
+  src: url(../font/Comfortaa-VariableFont_wght.ttf);
+  font-family: 'Comfortaa';
+  font-weight: normal;
+}
+
+.heading h1 {
+  font-family: 'Comfortaa';
+}
+
+p {
+  font-family: 'Comfortaa';
+}

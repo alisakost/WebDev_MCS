@@ -1,0 +1,8 @@
+.bordered {
+	width: 500px;
+	height: 500px;
+	border: 10px solid navy;
+	border-top: 5px dashed red;
+	border-bottom: 1px solid red;
+	border-radius: 50%;
+}

@@ -1,0 +1,16 @@
+.header {
+	width: 500px;
+	height: 200px;
+	background-color: blue;
+	background-image: url(../img/unknown.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bigSection {
+	height: 500px;
+	background-image: url(../img/unknown.png);
+	background-position: center;
+	background-attachment: fixed;
+}

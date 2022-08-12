@@ -1,0 +1,17 @@
+/*Директивы – то, что начинается с @. Позволяет подгружать файлы.*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.heading h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+.paragraph p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+.paragraphTwo p {
+  font-family: 'Source Code Pro', monospace;
+}
