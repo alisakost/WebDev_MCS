@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+h2 {
+  font-family: 'Helvetica', sans-serif;
+  margin-bottom: 41px;
+  font-weight: 700;
+}
+
+.background h2 {
+  line-height: 60px;
+  margin-left: 20px;
+}
+
+p {
+  font-family: 'Times New Roman', serif;
+  line-height: 1.2;
+}
+
+.background {
+  background: #FE1A19;
+  height: 60px;
+  color: white;
+}
+
+.section {
+  border: 5px solid #E5E000;
+  padding: 33px;
+  display: inline-block;
+  margin: 0 25px;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.main {
+  margin: 52px 45px;
+}
