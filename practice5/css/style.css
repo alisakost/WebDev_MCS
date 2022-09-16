@@ -1,0 +1,56 @@
+@import url(reset.css);
+
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.columnContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: calc((100% - 100px)/3);
+  min-width: 200px;
+  border: 1px solid black;
+}
+
+.textContainer {
+  padding: 30px 33px;
+}
+
+p.heading {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.header, .footer {
+  height: 160px;
+  background-color: #FFE138;
+  font-size: 50px;
+  line-height: 160px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.image {
+  background-size: cover;
+  padding-bottom: 150%;
+}
+
+.column.one .image {
+  background-image: url(../img/meta_side_table.png);
+}
+
+.column.two .image {
+  background-image: url(../img/click_chelf.png);
+}
+
+.column.three .image {
+  background-image: url(../img/float_shelf.png);
+}

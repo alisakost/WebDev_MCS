@@ -53,7 +53,16 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 50px;
+}
+
+.logo {
+  position: fixed;
+  left: 50px;
+}
+
+.navigation {
+  position: fixed;
+  right: 50px;
 }
 
 .nav_container {
@@ -63,10 +72,6 @@ a:hover {
 
 li:not(:last-of-type) {
   margin-right: 25px;
-}
-
-.logo {
-  margin-right: 100px;
 }
 
 .intro {
@@ -80,7 +85,7 @@ li:not(:last-of-type) {
   align-items: center;
 }
 
-.header_container {
+.heading_container {
   margin: 0 50px;
 }
 
